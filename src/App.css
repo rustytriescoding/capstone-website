@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.Log-Book-Bounds {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 1% 2% 1%;
+}
+
+.Log-Book {
+  background-color: #666a71;
+  color: white;
+  justify-content: center;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.Log-Book-Title {
+  color: white;
+  padding: 10px;
+}
+
+.Log-Book-Entries {
+  padding: 10px;
+}
+
+.Log-Book-Entry {
+  background-color: #999ca2;
+  border-radius: 20px;
+  padding: 5;
+}
+
+.Log-Book-Entry-Date {
+  color: white;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.Log-Book-Entry-Content {
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
+
+.Log-Book-Entry-participents {
+  color: white;
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
