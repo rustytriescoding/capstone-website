@@ -1,0 +1,4 @@
+const logs = [{ type: "Fiat", model: "500", color: "white" }];
+// importing not working as expected right now
+// will fix later
+export default logs;
