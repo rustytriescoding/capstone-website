@@ -1,10 +1,12 @@
 import "./App.css";
+import "./logBook.css";
 import LogBook from "./logBook";
+import Header from "./header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">MTE481 Capstone Project</header>
+      <Header />
       <div className="Log-Book-Bounds">
         <LogBook />
       </div>
