@@ -17,6 +17,10 @@ const LogEntries = ({ logs }) => (
 
 // render log book
 function LogBook() {
+  // Order items from newest at the top to oldest at the bottom
+  logs.sort(
+    (a, b) => new Date(b.dateAccomplished) - new Date(a.dateAccomplished)
+  );
   return (
     <div className="Log-Book">
       <h1 className="Log-Book-Title">Project Log Book</h1>
