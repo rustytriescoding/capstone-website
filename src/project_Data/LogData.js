@@ -103,6 +103,72 @@ const logs = [
     workDone: "Met with prof Vasudevan Lakshminarayanan",
     membersParticipated: "All Team members",
   },
+  {
+    key: "18",
+    dateAccomplished: "2024-10-28",
+    workDone: "Completed YOLO model for ML image cropping about the ONH region",
+    membersParticipated: "Russell",
+  },
+  {
+    key: "19",
+    dateAccomplished: "2024-10-31",
+    workDone: "Met with prof Vengu",
+    membersParticipated: "All Team members",
+  },
+  {
+    key: "20",
+    dateAccomplished: "2024-10-21",
+    workDone: "Got working model for glaucoma diagnosis with F1 Score of 0.8",
+    membersParticipated: "Russell",
+  },
+  {
+    key: "21",
+    dateAccomplished: "2024-10-16",
+    workDone: "Setup ML repo for training, testing",
+    membersParticipated: "Russell",
+  },
+  {
+    key: "22",
+    dateAccomplished: "2024-11-2",
+    workDone: "Researched different boards for the kiosk",
+    membersParticipated: "Timothy",
+  },
+  {
+    key: "23",
+    dateAccomplished: "2024-11-3",
+    workDone: "Worked on detailed design presentation",
+    membersParticipated: "Timothy",
+  },
+  {
+    key: "23",
+    dateAccomplished: "2024-10-22",
+    workDone: "Completed preliminary optical simulations",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "24",
+    dateAccomplished: "2024-10-30",
+    workDone: "Contacted supplier regarding camera customization",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "25",
+    dateAccomplished: "2024-10-29",
+    workDone: "Generated potential parts list",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "26",
+    dateAccomplished: "2024-10-31",
+    workDone: "Designed backend flow",
+    membersParticipated: "Harsimrat",
+  },
+  {
+    key: "27",
+    dateAccomplished: "2024-11-2",
+    workDone: "Researched on AWS products for backend",
+    membersParticipated: "Harsimrat",
+  },
 ];
 
 export default logs;
