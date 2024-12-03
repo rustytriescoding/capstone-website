@@ -169,6 +169,85 @@ const logs = [
     workDone: "Researched on AWS products for backend",
     membersParticipated: "Harsimrat",
   },
+  {
+    key: "28",
+    dateAccomplished: "2024-11-16",
+    workDone: "Got access to a 6k image dataset by emailing researchers",
+    membersParticipated: "Russell",
+  },
+  {
+    key: "29",
+    dateAccomplished: "2024-11-29",
+    workDone: "Tuned Model more reached a safe 85% F1 score",
+    membersParticipated: "Russell",
+  },
+  {
+    key: "30",
+    dateAccomplished: "2024-11-15",
+    workDone: "Placed order for optometry test model for alignment and testing",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "31",
+    dateAccomplished: "2024-11-28",
+    workDone: "Placed camera and lens parts order",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "32",
+    dateAccomplished: "2024-11-23",
+    workDone: "Finished optical system design",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "33",
+    dateAccomplished: "2024-11-29",
+    workDone: "Finished optical simulations",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "34",
+    dateAccomplished: "2024-11-23",
+    workDone: "Finished design CAD model",
+    membersParticipated: "Selvin",
+  },
+  {
+    key: "35",
+    dateAccomplished: "2024-11-20",
+    workDone: "Selected raspberry pi 5 board for computing",
+    membersParticipated: "Timothy",
+  },
+  {
+    key: "36",
+    dateAccomplished: "2024-12-1",
+    workDone:
+      "Placed order raspberry pi 5 board and Adafruit/Lumex LEDs for optics system",
+    membersParticipated: "Timothy",
+  },
+  {
+    key: "37",
+    dateAccomplished: "2024-11-23",
+    workDone: "Created local version of SQL table",
+    membersParticipated: "Harsimrat",
+  },
+  {
+    key: "38",
+    dateAccomplished: "2024-11-26",
+    workDone: "Created test api to acces a fake backend",
+    membersParticipated: "Harsimrat",
+  },
+  {
+    key: "39",
+    dateAccomplished: "2024-12-2",
+    workDone: "Won the Yuen Family Foundation Awards for Healthy Aging - 2024",
+    membersParticipated: "All Team members",
+  },
+  {
+    key: "40",
+    dateAccomplished: "2024-12-2",
+    workDone: "Worked on and completed the Final Report",
+    membersParticipated: "All Team members",
+  },
 ];
 
 export default logs;
