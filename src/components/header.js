@@ -5,7 +5,6 @@ function header() {
       <div className="App-Sub-Title">
         Making Eye Care Accessible, Routine, and Robust
       </div>
-      <div className="App-Sub-Heading">MTE 481 Capstone Project</div>
     </div>
   );
 }
