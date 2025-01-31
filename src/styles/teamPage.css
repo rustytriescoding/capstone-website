@@ -65,13 +65,20 @@
 }
 
 /* Styles for the image */
-.Team-Entrie img {
+.Team-Entrie-photo {
   width: 150px; /* Set a fixed width for the image */
   height: 250px; /* Set a fixed height for the image */
   border-radius: 20px;
   object-fit: cover; /* Ensure the image covers the space */
   margin-left: 20px; /* Add spacing between content and image */
   justify-content: right;
+}
+.Team-link-Logo {
+  width: 35px; /* Set a fixed width for the image */
+  height: 35px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the space */
+  justify-content: right;
+  margin-right: 10px;
 }
 
 .Team-Photo {

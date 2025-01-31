@@ -1,6 +1,8 @@
 import React from "react";
 import TeamData from "../project_Data/TeamData";
 import "../styles/teamPage.css";
+import linkedin from "../assets/linkedin.png";
+import githubLogo from "../assets/Octicons-mark-github.svg";
 
 const MemberCard = ({ info }) => {
   return (
@@ -10,12 +12,36 @@ const MemberCard = ({ info }) => {
           <div className="Team-Member-Info">
             <div className="Team-Member-Name-Contact">
               <p className="Team-Member-Name">{data.memberName}</p>
-              <a href={data.linkedin}>Linkedin </a>|
-              <a href={data.github}> Github</a>
+              {data.linkedin !== "" ? (
+                <a href={data.linkedin}>
+                  <img
+                    className="Team-link-Logo"
+                    src={linkedin}
+                    alt="Linkedin Logo"
+                  />
+                </a>
+              ) : (
+                ""
+              )}
+              {data.github !== "" ? (
+                <a href={data.github}>
+                  <img
+                    className="Team-link-Logo"
+                    src={githubLogo}
+                    alt="Github Logo"
+                  />
+                </a>
+              ) : (
+                ""
+              )}
             </div>
             <p className="Team-Member-Content">{data.content}</p>
           </div>
-          <img src={data.image} alt={`${data.memberName} pic`} />
+          <img
+            className="Team-Entrie-photo"
+            src={data.image}
+            alt={`${data.memberName} pic`}
+          />
         </div>
       ))}
     </div>
