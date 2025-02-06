@@ -1,0 +1,157 @@
+/* General styles for the team page */
+.Team-Page {
+  background-color: #282c34;
+  width: 100%;
+  min-height: 100vh; /* Ensure the page takes up the full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6%;
+}
+
+.Team-title {
+  color: white;
+  font-size: 3rem; /* Larger title */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Container for all team cards */
+.Team-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px; /* Limit the width of the container */
+  margin-top: 100px;
+}
+
+/* Styles for each team member card */
+.Team-Entrie {
+  background-color: #666a71;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px; /* Limit the width of each card */
+  margin: 20px 0; /* Add spacing between cards */
+  padding: 20px;
+  display: flex;
+  flex-direction: row; /* Align name, content, and image horizontally */
+  align-items: flex-start; /* Align items to the top */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Styles for the name */
+.Team-Member-Name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  flex: 1; /* Allow the name to take up available space */
+  text-align: left; /* Align the name to the left */
+}
+
+/* Styles for the content */
+.Team-Member-Content {
+  background-color: #999ca2;
+  border-radius: 20px;
+  font-size: 1rem;
+  flex: 2; /* Allow the content to take up more space */
+  display: flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  padding: 10px; /* Add padding for better spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  height: 30px;
+}
+
+/* Styles for the image */
+.Team-Entrie-photo {
+  width: 150px; /* Set a fixed width for the image */
+  height: 250px; /* Set a fixed height for the image */
+  border-radius: 20px;
+  object-fit: cover; /* Ensure the image covers the space */
+  margin-left: 20px; /* Add spacing between content and image */
+  justify-content: right;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Team-link-Logo {
+  width: 35px; /* Set a fixed width for the image */
+  height: 35px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the space */
+  justify-content: right;
+  margin-right: 10px;
+}
+
+.Team-Photo {
+  width: 50%; /* Set a fixed width for the image */
+  height: 5%; /* Set a fixed height for the image */
+  border-radius: 20px;
+  object-fit: cover; /* Ensure the image covers the space */
+  justify-content: right;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+.Team-Discription {
+  background-color: #666a71;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  flex: 2; /* Allow the content to take up more space */
+  display: flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  padding: 10px; /* Add padding for better spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  height: 30px;
+}
+
+/* Styles for the content */
+.Team-Member-Info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin: 10px 0;
+  text-align: center; /* Center the content */
+  flex: 2; /* Allow the content to take up more space */
+}
+.Team-Member-Name-Contact {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  justify-content: center; 
+  text-align: left; /* Center the content */
+  flex: 2; /* Allow the content to take up more space */
+}
+
+.Team-Member-Name-Contact a:link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+/* visited link */
+.Team-Member-Name-Contact a:visited {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center; 
+}
+
+/* mouse over link */
+.Team-Member-Name-Contact a:hover {
+  color: #a600ff;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center; 
+}
+
+/* selected link */
+.Team-Member-Name-Contact a:active {
+  color: #a600ff;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center; 
+}

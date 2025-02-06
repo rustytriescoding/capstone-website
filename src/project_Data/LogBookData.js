@@ -1,4 +1,4 @@
-const logs = [
+const LogBookData = [
   {
     key: "1",
     dateAccomplished: "2024-09-16",
@@ -140,114 +140,114 @@ const logs = [
     membersParticipated: "Timothy",
   },
   {
-    key: "23",
+    key: "24",
     dateAccomplished: "2024-10-22",
     workDone: "Completed preliminary optical simulations",
     membersParticipated: "Selvin",
   },
   {
-    key: "24",
+    key: "25",
     dateAccomplished: "2024-10-30",
     workDone: "Contacted supplier regarding camera customization",
     membersParticipated: "Selvin",
   },
   {
-    key: "25",
+    key: "26",
     dateAccomplished: "2024-10-29",
     workDone: "Generated potential parts list",
     membersParticipated: "Selvin",
   },
   {
-    key: "26",
+    key: "27",
     dateAccomplished: "2024-10-31",
     workDone: "Designed backend flow",
     membersParticipated: "Harsimrat",
   },
   {
-    key: "27",
+    key: "28",
     dateAccomplished: "2024-11-2",
     workDone: "Researched on AWS products for backend",
     membersParticipated: "Harsimrat",
   },
   {
-    key: "28",
+    key: "29",
     dateAccomplished: "2024-11-16",
     workDone: "Got access to a 6k image dataset by emailing researchers",
     membersParticipated: "Russell",
   },
   {
-    key: "29",
+    key: "30",
     dateAccomplished: "2024-11-29",
     workDone: "Tuned Model more reached a safe 85% F1 score",
     membersParticipated: "Russell",
   },
   {
-    key: "30",
+    key: "31",
     dateAccomplished: "2024-11-15",
     workDone: "Placed order for optometry test model for alignment and testing",
     membersParticipated: "Selvin",
   },
   {
-    key: "31",
+    key: "32",
     dateAccomplished: "2024-11-28",
     workDone: "Placed camera and lens parts order",
     membersParticipated: "Selvin",
   },
   {
-    key: "32",
+    key: "33",
     dateAccomplished: "2024-11-23",
     workDone: "Finished optical system design",
     membersParticipated: "Selvin",
   },
   {
-    key: "33",
+    key: "34",
     dateAccomplished: "2024-11-29",
     workDone: "Finished optical simulations",
     membersParticipated: "Selvin",
   },
   {
-    key: "34",
+    key: "35",
     dateAccomplished: "2024-11-23",
     workDone: "Finished design CAD model",
     membersParticipated: "Selvin",
   },
   {
-    key: "35",
+    key: "36",
     dateAccomplished: "2024-11-20",
     workDone: "Selected raspberry pi 5 board for computing",
     membersParticipated: "Timothy",
   },
   {
-    key: "36",
+    key: "37",
     dateAccomplished: "2024-12-1",
     workDone:
       "Placed order raspberry pi 5 board and Adafruit/Lumex LEDs for optics system",
     membersParticipated: "Timothy",
   },
   {
-    key: "37",
+    key: "38",
     dateAccomplished: "2024-11-23",
     workDone: "Created local version of SQL table",
     membersParticipated: "Harsimrat",
   },
   {
-    key: "38",
+    key: "39",
     dateAccomplished: "2024-11-26",
     workDone: "Created test api to acces a fake backend",
     membersParticipated: "Harsimrat",
   },
   {
-    key: "39",
+    key: "40",
     dateAccomplished: "2024-12-2",
     workDone: "Won the Yuen Family Foundation Awards for Healthy Aging - 2024",
     membersParticipated: "All Team members",
   },
   {
-    key: "40",
+    key: "41",
     dateAccomplished: "2024-12-2",
     workDone: "Worked on and completed the Final Report",
     membersParticipated: "All Team members",
   },
 ];
 
-export default logs;
+export default LogBookData;

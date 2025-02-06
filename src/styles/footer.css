@@ -1,0 +1,22 @@
+.Footer {
+    background-color: #282c34;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto; /* Pushes footer to bottom */
+}
+
+.Footer div {
+    color: white;
+    font-size: 1.2rem;
+}
+.Footer img {
+    width: 35px; /* Set a fixed width for the image */
+  height: 35px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the space */
+  justify-content: right;
+  margin-right: 10px;
+}
