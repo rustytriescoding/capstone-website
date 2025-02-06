@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../components/nav";
 import TeamInfo from "../components/teamInfo";
 
-import exampleGroupPhoto from "../assets/exampleGroupPhoto.jpg";
+import groupPhoto from "../assets/groupPhoto.jpg";
 
 import "../styles/teamPage.css";
 
@@ -14,7 +14,7 @@ function TeamPage() {
         <div className="Team-title">
           Meet Team <text className="navbar-title-alt">38</text>
         </div>
-        <img className="Team-Photo" src={exampleGroupPhoto} alt={`team`} />
+        <img className="Team-Photo" src={groupPhoto} alt={`team`} />
         {/*
         <div className="Team-Discription">Team discription</div>
         */}

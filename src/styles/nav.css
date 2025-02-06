@@ -8,6 +8,9 @@
     position: fixed;
     top: 0;
     z-index:99;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
   }
   
   /* Container for title and links */
