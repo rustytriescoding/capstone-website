@@ -8,7 +8,7 @@ const TeamData = [
     key: "1",
     memberName: "Harsimrat Bajwa",
     content:
-      "Hi I am Harsimrat, I worked on the backend architecture that glues together the whole project. The backend was essentially created as a multi layerd AI pipeline that diagnoses the eyes based on recieved images. In addition to this I created and maintain this website.",
+      "Hi I am Harsimrat, I worked on the backend architecture that glues together the whole project. The backend was essentially created as a multi-layerd AI pipeline that diagnoses the eyes based on recieved images. In addition to this I created and maintain this website.",
     image: harsimratbajwa,
     linkedin: "https://www.linkedin.com/in/harsimrat-bajwa/",
     github: "https://github.com/Harsimrat713",
@@ -26,7 +26,7 @@ const TeamData = [
     key: "3",
     memberName: "Selvin Wen",
     content:
-      "Mechatronics engineering student with multidisciplinary background spanning electrical, software, and hardware domains. Primarily worked on device hardware, electricals, optics and high-level systems design",
+      "Mechatronics engineering student with multidisciplinary background spanning electrical, software, and hardware domains. Primarily worked on device hardware, electrical systems, optics and high-level systems design",
     image: selvinwen,
     linkedin: "https://www.linkedin.com/in/tswen/",
     github: "",
@@ -35,7 +35,7 @@ const TeamData = [
     key: "4",
     memberName: "Russell Tang",
     content:
-      "Hi im Russ and I worked on the machine learning component of RetinAi. I used PyTorch and trasnfer learnjng to train our model on over 17000 fundus images",
+      "Hi im Russ and I worked on the machine learning component of RetinAi. I used PyTorch and transfer learning to train our model on over 17000 fundus images",
     image: russelletang,
     linkedin: "https://www.linkedin.com/in/russelletang/",
     github: "https://github.com/rustytriescoding",
