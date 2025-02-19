@@ -9,13 +9,13 @@ const LogBookData = [
     key: "2",
     dateAccomplished: "2024-09-17",
     workDone:
-      "Researched avalible professors from MME, ECE, BME, SYDE, and Optomitry to see who could possibly help us and provide more information.",
+      "Researched available professors from MME, ECE, BME, SYDE, and Optometry to see who could possibly help us and provide more information.",
     membersParticipated: "All Team members",
   },
   {
     key: "3",
     dateAccomplished: "2024-09-20",
-    workDone: "Updated website to use react and implemnted a log book",
+    workDone: "Updated website to use react and implemented a log book",
     membersParticipated: "Harsimrat",
   },
   {
@@ -34,13 +34,13 @@ const LogBookData = [
   {
     key: "6",
     dateAccomplished: "2024-10-6",
-    workDone: "Had a in person meeting to discuss best solution",
+    workDone: "Had a in-person meeting to discuss best solution",
     membersParticipated: "All Team members",
   },
   {
     key: "7",
     dateAccomplished: "2024-10-6",
-    workDone: "Reached out to professors in school of optomitry",
+    workDone: "Reached out to professors in School of Optometry",
     membersParticipated: "Selvin",
   },
   {
@@ -100,7 +100,7 @@ const LogBookData = [
   {
     key: "17",
     dateAccomplished: "2024-10-18",
-    workDone: "Met with prof Vasudevan Lakshminarayanan",
+    workDone: "Met with Prof Vasudevan Lakshminarayanan",
     membersParticipated: "All Team members",
   },
   {
@@ -112,13 +112,13 @@ const LogBookData = [
   {
     key: "19",
     dateAccomplished: "2024-10-31",
-    workDone: "Met with prof Vengu",
+    workDone: "Met with Prof. Vengu",
     membersParticipated: "All Team members",
   },
   {
     key: "20",
     dateAccomplished: "2024-10-21",
-    workDone: "Got working model for glaucoma diagnosis with F1 Score of 0.8",
+    workDone: "Got working model for glaucoma diagnosis with F1 score of 0.8",
     membersParticipated: "Russell",
   },
   {
@@ -178,7 +178,7 @@ const LogBookData = [
   {
     key: "30",
     dateAccomplished: "2024-11-29",
-    workDone: "Tuned Model more reached a safe 85% F1 score",
+    workDone: "Tuned the model further, reaching a safe 85% F1 score",
     membersParticipated: "Russell",
   },
   {
